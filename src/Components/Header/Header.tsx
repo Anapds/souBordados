@@ -8,11 +8,11 @@ function Header() {
             className="w-full"
             style={{ backgroundColor: "var(--color-primary)" }}
         >
-            <nav className="mx-auto flex max-w-7xl items-center justify-between px-8 py-6">
+            <nav className="mx-auto flex max-w-7xl items-center justify-between px-8 py-1">
 
                 <h1
                     className="text-6xl"
-                    style={{ fontFamily: "Allura" }}
+                    style={{ fontFamily: "Allura", color: "var(--color-secondary)" }}
                 >
                     Sou Bordados
                 </h1>
