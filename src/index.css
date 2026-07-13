@@ -1,23 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
-@font-face {
-  font-family: "Questrial";
-  src: url("./assets/fonts/questrial/Questrial-Regular.ttf") format("truetype");
+@theme {
+  --color-main: #FAEFE0;
+  --color-secondary: #E8C5A9;
+  --color-contrast: #FEFAF6;
+  --color-accent: #D8E2CC;
+  --font-title: 'Billion Miracles', cursive;
+  --font-sans: 'Questrial', sans-serif;
 }
 
-:root {
-  --color-primary: #FAEFE0;
-  --color-secondary: #E8C5A9;
-  --color-light: #FEFAF6;
-  --color-accent: #D8E2CC;
+@font-face {
+  font-family: 'Billion Miracles';
+  src: url('./assets/fonts/BillionMiracles.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-  font-family: "Questrial", sans-serif;
+  background-color: var(--color-main);
+  color: #333333;
 }
