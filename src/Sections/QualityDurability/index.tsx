@@ -4,25 +4,24 @@ export const QualityDurability: React.FC = () => {
     return (
         <section className="relative bg-accent pt-24 pb-20 px-6 text-[#4A3525]">
 
-           <div className="absolute top-0 left-0 w-full overflow-hidden leading-none z-0">
-                <svg className="block w-full h-[200px]" viewBox="0 0 1440 120" preserveAspectRatio="none">
-                    <path 
-                        d="M0,0 C360,120 1080,120 1440,0 L1440,0 L0,0 Z" 
-                        className="fill-contrast" 
+            <div className="absolute top-0 left-0 w-full overflow-hidden leading-none z-0">
+                <svg className="block w-full h-[218px]" viewBox="0 0 1440 120" preserveAspectRatio="none">
+                    <path
+                        d="M0,0 C360,120 1080,120 1440,0 L1440,0 L0,0 Z"
+                        className="fill-contrast"
                     />
                 </svg>
             </div>
 
             <div className="relative z-10 max-w-6xl mx-auto">
-                <div className="text-center mb-16">
-                    <h2 className="text-5xl md:text-6xl font-title text-[#6B4A35]">
+                <div className="text-center mb-16 pl-4 sm:pl-6 md:pl-0">
+                    <h2 className="text-3xl sm:text-4xl md:text-6xl font-title text-[#6B4A35] leading-tight">
                         Qualidade e durabilidade
                     </h2>
                 </div>
 
                 <div className="w-full flex flex-col items-center px-6">
-                    {/* Aumentamos o max-w para permitir que o texto fique mais extenso */}
-                    {/* Removi o 'text-left' forçado para que ele siga o fluxo natural do parágrafo */}
+
                     <div className="max-w-4xl w-full text-left space-y-8 text-base md:text-lg leading-relaxed">
 
                         <div className="flex justify-center">

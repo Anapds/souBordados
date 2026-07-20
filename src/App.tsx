@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header/Header';
-import fotoSouBordados from "./assets/images/fotoSouBordados.png";
+import fotoSouBordados from "./assets/images/atelierMertz.png";
 
 import { HowToOrder } from './Sections/HowToOrder';
 import { Catalog } from './Sections/Catalog';

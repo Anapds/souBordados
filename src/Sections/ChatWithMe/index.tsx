@@ -18,12 +18,12 @@ export const ChatWithMe: React.FC = () => {
                                 <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
                             </svg>
                             <a
-                                href="https://instagram.com/sou.bordados"
+                                href="https://instagram.com/ateliermertz"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-2xl underline decoration-2 underline-offset-4 hover:opacity-80"
                             >
-                                sou.bordados
+                                ateliermertz
                             </a>
                         </div>
 
