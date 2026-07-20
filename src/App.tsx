@@ -1,6 +1,9 @@
 import React from 'react';
-import { HowToOrder } from './Sections/HowToOrder';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header/Header';
+import fotoSouBordados from "./assets/images/fotoSouBordados.png";
+
+import { HowToOrder } from './Sections/HowToOrder';
 import { Catalog } from './Sections/Catalog';
 import WeddingRingHolder from './Sections/WeddingRingHolder';
 import EmbroideredPhotograph from './Sections/EmbroideredPhotograph';
@@ -10,31 +13,43 @@ import AdditionalHandle from './Sections/AdditionalHandle';
 import AdditionalEasel from './Sections/AdditionalEasel';
 import AdditionalGlassFrame from './Sections/AdditionalGlassFrame';
 
+import OrderPage from './Pages/OrderPages';
 
 export const App: React.FC = () => {
   return (
-    <main className="min-h-screen bg-main text-neutral-800">
-      <Header />
+    <Router>
+      <main className="min-h-screen bg-main text-neutral-800">
+        <Header />
 
-      <HowToOrder />
+        <Routes>
+          {/* Rota da Home */}
+          <Route path="/" element={
+            <>
+              <div className="w-full overflow-hidden pt-10">
+                <img
+                  src={fotoSouBordados}
+                  alt="Banner Sou Bordados"
+                  className="w-full object-cover max-h-[500px]"
+                />
+              </div>
 
-      <Catalog />
+              <HowToOrder />
+              <Catalog />
+              <WeddingRingHolder />
+              <EmbroideredPhotograph />
+              <EmbroideredAcrylic />
+              <Additional />
+              <AdditionalHandle />
+              <AdditionalEasel />
+              <AdditionalGlassFrame />
+            </>
+          } />
 
-      <WeddingRingHolder />
-
-
-      <EmbroideredPhotograph />
-      
-      <EmbroideredAcrylic />
-
-      <Additional />
-
-      <AdditionalHandle />
-
-      <AdditionalEasel />
-
-      <AdditionalGlassFrame />
-    </main>
+          {/* Rota da página Encomendar */}
+          <Route path="/encomendar" element={<OrderPage />} />
+        </Routes>
+      </main>
+    </Router>
   );
 };
 
