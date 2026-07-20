@@ -18,7 +18,7 @@ export const Header: React.FC = () => {
         <header className="w-full font-sans">
             <nav className="fixed top-0 left-0 w-full bg-main/95 backdrop-blur-sm z-50 shadow-xs transition-all">
                 <div className="mx-auto flex max-w-full items-center justify-between px-6 py-4 md:px-12">
-                    <ul className="ml-auto flex items-center gap-8 text-xs md:text-sm text-[#4A3525] font-medium">
+                    <ul className="ml-auto flex items-center gap-4 md:gap-8 text-[10px] md:text-sm text-[#4A3525] font-medium">
                         {navItems.map((item) => (
                             <li key={item.to}>
                                 <HashLink

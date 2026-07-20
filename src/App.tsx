@@ -14,10 +14,12 @@ import AdditionalEasel from './Sections/AdditionalEasel';
 import AdditionalGlassFrame from './Sections/AdditionalGlassFrame';
 
 import OrderPage from './Pages/OrderPages';
+import { ScrollToTop } from './Components/ScrollToTop';
 
 export const App: React.FC = () => {
   return (
     <Router>
+      <ScrollToTop />
       <main className="min-h-screen bg-main text-neutral-800">
         <Header />
 

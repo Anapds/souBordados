@@ -2,7 +2,7 @@ import React from 'react';
 
 export const ChatWithMe: React.FC = () => {
     return (
-        <section id="contact" className="bg-accent py-20 px-6">
+        <section  className="bg-accent py-20 px-6">
             <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
                 <div className="space-y-12 md:pl-16 lg:pl-24">
