@@ -10,7 +10,7 @@ interface StepItem {
 const stepsData: StepItem[] = [
   {
     number: "1",
-    description: "Me conte suas ideias: tamanho do bastidor, tema, paleta de cores, inspirações, tudo isso me ajudará a criar uma arte única para você!"
+    description: "Me conte suas ideias: tamanho do bastidor, tema, paleta de cores, inspirações e tudo que imaginar. Cada detalhe contribui para a criação de uma arte única para você!"
   },
   {
     number: "2",
@@ -22,7 +22,7 @@ const stepsData: StepItem[] = [
   },
   {
     number: "4",
-    description: "Após aprovação será dado inicio ao prazo de produção que são de aproximadamente 7 dias úteis (a data de entrega será combinada conforme a disponibilidade em agenda)."
+    description: "Após a aprovação da arte, inicia-se o prazo de produção. A data de entrega será combinada conforme a disponibilidade da agenda."
   }
 ];
 

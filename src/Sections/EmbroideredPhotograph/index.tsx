@@ -4,7 +4,7 @@ import React from 'react';
 import desenhogente from '../../assets/images/desenhogente.jpeg';
 import desenhogente2 from '../../assets/images/desenhogente2.jpeg';
 import desenhogente3 from '../../assets/images/desenhogente3.jpeg';
-import desenhogente4 from '../../assets/images/desenhogente4.jpeg';
+import desenhogente4 from '../../assets/images/fotoIdosaBordada.jpeg';
 
 
 
@@ -39,11 +39,14 @@ export const EmbroideredPhotograph: React.FC = () => {
 
                         <div className="space-y-4 text-base md:text-lg leading-relaxed font-normal">
                             <p>
-                                ✧ Deixe suas fotos ainda mais especiais!
-                                Eternize, em bordado, os momentos mais marcantes da
-                                sua vida, com a possibilidade de adicionar datas ou
-                                frases personalizadas para tornar o projeto ainda mais
-                                único e significativo.
+                                ✧ Guarde seus momentos mais especiais de uma
+                                forma única. 
+                                <br></br>
+
+                                A partir da sua fotografia, desenvolvo um bordado
+                                artesanal personalizado, com a possibilidade de incluir
+                                nomes, datas ou frases que tornem essa lembrança
+                                ainda mais exclusiva e cheia de significado.
                             </p>
                         </div>
 
