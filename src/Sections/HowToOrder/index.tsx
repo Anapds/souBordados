@@ -1,11 +1,9 @@
 import React from 'react';
 
-
 interface StepItem {
   number: string;
   description: string;
 }
-
 
 const stepsData: StepItem[] = [
   {
@@ -28,8 +26,7 @@ const stepsData: StepItem[] = [
 
 export const HowToOrder: React.FC = () => {
   return (
-    <section id="how-to-order" className="relative bg-main pt-12 pb-24 font-sans text-neutral-800">
-
+    <section id="how-to-order" className="relative bg-main pt-12 pb-24 font-sans text-brown">
 
       <div className="absolute top-0 left-0 w-full overflow-hidden leading-none">
         <svg
@@ -46,25 +43,21 @@ export const HowToOrder: React.FC = () => {
 
       <div className="relative z-10 max-w-6xl mx-auto px-6">
 
-
-        <h2 className="text-4xl md:text-7xl font-title text-center text-[#4A3525] mb-16 md:mb-24">
+        <h2 className="text-4xl md:text-7xl font-title text-center text-brown mb-16 md:mb-24">
           Como encomendar?
         </h2>
-
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-12 md:gap-y-16">
           {stepsData.map((step) => (
             <div key={step.number} className="flex items-start gap-6">
 
-
               <div className="flex-shrink-0 w-16 h-20 bg-secondary rounded-b-full flex items-center justify-center shadow-sm">
-                <span className="font-title text-3xl md:text-4xl text-white pt-2">
+                <span className="font-title text-5xl md:text-6xl text-white pt-2">
                   {step.number}
                 </span>
               </div>
 
-
-              <p className="text-base md:text-lg leading-relaxed text-neutral-700 pt-2">
+              <p className="text-base md:text-lg leading-relaxed text-brown -mt-1">
                 {step.description}
               </p>
 

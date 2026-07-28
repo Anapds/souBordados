@@ -21,14 +21,14 @@ const pricesData = [
 
 export const EmbroideredAcrylic: React.FC = () => {
   return (
-    <section className="w-full bg-main py-20 md:py-28 font-sans text-[#4A3525]">
+    <section className="w-full bg-main py-20 md:py-28 font-sans text-brown">
       <div className="max-w-6xl mx-auto px-6 md:px-12">
 
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-16 items-center">
 
           <div className="md:col-span-6 space-y-6 md:space-y-8">
 
-            <h2 className="text-6xl md:text-7xl font-title tracking-wide">
+            <h2 className="text-6xl md:text-7xl font-title tracking-wide whitespace-nowrap">
               Bordado no Acrílico
             </h2>
 
@@ -53,7 +53,7 @@ export const EmbroideredAcrylic: React.FC = () => {
               ))}
             </div>
 
-            <p className="text-xs md:text-sm text-[#4A3525]/80 pt-4">
+            <p className="text-xs md:text-sm text-brown/80 pt-4">
               *O valor final será calculado conforme a arte selecionada
             </p>
 

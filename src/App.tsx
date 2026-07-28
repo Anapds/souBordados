@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header/Header';
 import fotoSouBordados from "./assets/images/atelierMertz.png";
+import fotoMobile from "./assets/images/fotoMobile.png"; 
 
 import { HowToOrder } from './Sections/HowToOrder';
 import { Catalog } from './Sections/Catalog';
@@ -20,19 +21,22 @@ export const App: React.FC = () => {
   return (
     <Router>
       <ScrollToTop />
-      <main className="min-h-screen bg-main text-neutral-800">
+      <main className="min-h-screen bg-main text-brown">
         <Header />
 
         <Routes>
-          {/* Rota da Home */}
           <Route path="/" element={
             <>
               <div className="w-full overflow-hidden pt-10">
-                <img
-                  src={fotoSouBordados}
-                  alt="Banner Sou Bordados"
-                  className="w-full object-cover max-h-[500px]"
-                />
+                <picture>
+                  <source media="(min-width: 768px)" srcSet={fotoSouBordados} />
+                  
+                  <img
+                    src={fotoMobile}
+                    alt="Banner Sou Bordados"
+                    className="w-full object-cover max-h-[500px]"
+                  />
+                </picture>
               </div>
 
               <HowToOrder />

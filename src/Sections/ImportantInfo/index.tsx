@@ -2,7 +2,7 @@ import React from 'react';
 
 export const ImportantInfo: React.FC = () => {
     return (
-        <section className="relative bg-main pt-24 pb-20 px-6 text-[#4A3525]">
+        <section className="relative bg-main pt-24 pb-20 px-6 text-brown">
 
            <div className="absolute top-0 left-0 w-full overflow-hidden leading-none z-0">
                 <svg className="block w-full h-[210px]" viewBox="0 0 1440 120" preserveAspectRatio="none">

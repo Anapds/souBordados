@@ -26,7 +26,7 @@ const pricesData = [
 
 export const Catalog: React.FC = () => {
   return (
-    <section id="catalog" className="w-full bg-accent py-20 md:py-28 font-sans text-[#4A3525]">
+    <section id="catalog" className="w-full bg-accent py-20 md:py-28 font-sans text-brown">
       <div className="max-w-6xl mx-auto px-6 md:px-12">
         
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-16 items-center">
@@ -56,7 +56,7 @@ export const Catalog: React.FC = () => {
               ))}
             </div>
 
-            <p className="text-xs md:text-sm text-[#4A3525]/80 pt-4">
+            <p className="text-xs md:text-sm text-brown/80 pt-4">
               *O valor final será calculado conforme a arte selecionada
             </p>
 

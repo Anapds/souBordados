@@ -2,7 +2,7 @@ import React from 'react';
 
 export const PaymentMethods: React.FC = () => {
     return (
-        <section id="encomendar" className="w-full bg-accent py-20 text-[#4A3525] relative">
+        <section id="encomendar" className="w-full bg-accent py-20 text-brown relative">
 
             <div className="absolute top-0 left-0 w-full overflow-hidden leading-none z-0">
                 <svg className="block w-full h-[210px]" viewBox="0 0 1440 120" preserveAspectRatio="none">
@@ -16,7 +16,7 @@ export const PaymentMethods: React.FC = () => {
             <div className="relative z-10 max-w-6xl mx-auto flex flex-col items-center">
                 <div className="w-fit text-left">
                     <div className="inline-block pb-2 mb-8 pl-15 sm:pl-6 md:pl-0">
-                        <h2 className="text-4xl sm:text-5xl md:text-7xl font-title tracking-wide">
+                        <h2 className="text-4xl sm:text-5xl md:text-6xl font-title tracking-wide">
                             Formas de pagamento
                         </h2>
                     </div>
@@ -30,7 +30,7 @@ export const PaymentMethods: React.FC = () => {
             </div>
 
             <div className="w-full bg-contrast py-4 my-16">
-                <h2 className="text-6xl md:text-7xl font-title tracking-wide text-center">
+                <h2 className="text-6xl md:text-6xl font-title tracking-wide text-center">
                     Envio
                 </h2>
             </div>

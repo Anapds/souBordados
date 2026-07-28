@@ -4,8 +4,8 @@ import molduraMadeira from '../../assets/images/molduraMadeira.jpeg';
 
 export const AdditionalGlassFrame: React.FC = () => {
     return (
-        <section id="additional" className="w-full bg-main font-sans text-[#4A3525] overflow-hidden">
-            <div className="w-full mx-auto pl-8 md:pl-48">
+        <section id="additional" className="w-full bg-main font-sans text-brown overflow-hidden">
+            <div className="w-full mx-auto md:pl-48">
                 <div className="grid grid-cols-1 md:grid-cols-12 items-stretch min-h-[650px]">
 
                     <div className="md:col-span-6 px-8 py-16 md:py-20 flex flex-col justify-center items-center">
@@ -16,7 +16,7 @@ export const AdditionalGlassFrame: React.FC = () => {
                                 <h2 className="text-7xl md:text-[86px] font-title tracking-wide leading-none mb-2 md:mb-4">
                                     Adicionais :
                                 </h2>
-                                <h3 className="text-7xl md:text-[86px] font-title tracking-wide leading-none mb-2 md:mb-4">
+                                <h3 className="text-5xl md:text-[86px] font-title tracking-wide leading-none mb-2 md:mb-4 whitespace-nowrap">
                                     - Moldura de Vidro
                                 </h3>
 

@@ -6,11 +6,12 @@ import macrameFotoGrande from '../../assets/images/macramefotgrande.jpeg';
 
 export const Additional: React.FC = () => {
   return (
-    <section id="additional" className="w-full bg-accent font-sans text-[#4A3525] overflow-hidden">
-      <div className="w-full mx-auto pl-8 md:pl-48">
+    <section id="additional" className="w-full bg-accent font-sans text-brown overflow-hidden">
+
+      <div className="w-full mx-auto md:pl-48">
         <div className="grid grid-cols-1 md:grid-cols-12 items-stretch min-h-[650px]">
           
-          <div className="md:col-span-6 px-8 py-16 md:py-20 flex flex-col justify-center items-center">
+          <div className="md:col-span-6 px-6 md:px-8 py-16 md:py-20 flex flex-col justify-center items-center">
             
             <div className="w-full max-w-lg space-y-10">
               
@@ -19,15 +20,14 @@ export const Additional: React.FC = () => {
                   Adicionais :
                 </h2>
                 <h3 className="text-7xl md:text-[86px] font-title tracking-wide leading-none mb-2 md:mb-4">
-                  - alça de macramê
+                  - Nó
                 </h3>
 
                 <div className="space-y-4 text-base md:text-lg leading-relaxed font-normal">
                   <p>
                     ✧ Confeccionada à mão com barbante 32 fios, traz charme e delicadeza ao seu bordado.
-                  </p>
-                  <p>
-                    Um toque artesanal que transforma a peça em algo ainda mais especial.
+                    <br />
+                    Disponível em diferentes cores, consulte as opções no momento da encomenda.
                   </p>
                 </div>
 
@@ -36,7 +36,7 @@ export const Additional: React.FC = () => {
                 </p>
               </div>
 
-              <div className="grid grid-cols-2 gap-22 max-w-[380px] pt-2">
+              <div className="w-full max-w-[340px] md:max-w-[380px] mx-auto md:mx-0 grid grid-cols-2 gap-4 md:gap-22 pt-2">
                 
                 <div className="flex flex-col items-center">
                   <div className="w-full overflow-hidden rounded-t-full shadow-sm bg-black/5 aspect-[4/5] mb-3">
@@ -46,8 +46,8 @@ export const Additional: React.FC = () => {
                       className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                     />
                   </div>
-                  <p className="font-title text-3xl md:text-5xl text-center mt-2">
-                    com franja
+                  <p className="font-title text-xl md:text-5xl text-center mt-2">
+                    Com franja
                   </p>
                 </div>
 
@@ -60,7 +60,7 @@ export const Additional: React.FC = () => {
                     />
                   </div>
                   <p className="font-title text-3xl md:text-5xl text-center mt-2">
-                    sem franja
+                    Sem franja
                   </p>
                 </div>
 
@@ -70,7 +70,7 @@ export const Additional: React.FC = () => {
 
           </div>
 
-          <div className="md:col-span-6 max-w-lg w-full h-full relative flex justify-center">
+          <div className="md:col-span-6 max-w-lg w-full h-full relative flex justify-center mx-auto md:mx-0">
             
             <div className="relative w-full h-full flex items-center justify-center">
               <img 

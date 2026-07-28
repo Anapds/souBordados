@@ -3,7 +3,7 @@ import React from 'react';
 import portaAlianca1 from '../../assets/images/portaAlianca.jpeg';
 import portaAlianca2 from '../../assets/images/portaalianca2.jpeg';
 import portaAlianca3 from '../../assets/images/portaAlianca3.jpeg';
-import portaAlianca4 from '../../assets/images/desenhogente4.jpeg'; 
+import portaAlianca4 from '../../assets/images/portaAlianca4.jpeg'; 
 
 const galleryImages = [
   portaAlianca1,
@@ -21,7 +21,7 @@ const pricesData = [
 
 export const WeddingRingHolder: React.FC = () => {
   return (
-    <section className="w-full bg-main py-20 md:py-28 font-sans text-[#4A3525]">
+    <section className="w-full bg-main py-20 md:py-28 font-sans text-brown">
       <div className="max-w-6xl mx-auto px-6 md:px-12">
         
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-16 items-center">
@@ -50,7 +50,7 @@ export const WeddingRingHolder: React.FC = () => {
               ))}
             </div>
 
-            <p className="text-xs md:text-sm text-[#4A3525]/80 pt-4">
+            <p className="text-xs md:text-sm text-brown/80 pt-4">
               *O valor final será calculado conforme a arte selecionada
             </p>
 

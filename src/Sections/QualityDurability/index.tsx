@@ -2,7 +2,7 @@ import React from 'react';
 
 export const QualityDurability: React.FC = () => {
     return (
-        <section className="relative bg-accent pt-24 pb-20 px-6 text-[#4A3525]">
+        <section className="relative bg-accent pt-24 pb-20 px-6 text-brown">
 
             <div className="absolute top-0 left-0 w-full overflow-hidden leading-none z-0">
                 <svg className="block w-full h-[218px]" viewBox="0 0 1440 120" preserveAspectRatio="none">
@@ -25,7 +25,12 @@ export const QualityDurability: React.FC = () => {
                     <div className="max-w-4xl w-full text-left space-y-8 text-base md:text-lg leading-relaxed">
 
                         <div className="flex justify-center">
-                            <p className="inline-block border-b border-[#4A3525] pb-1">
+                            {/* 
+    1. Sem classes de borda soltas: No mobile, o texto fica limpo, sem linha nenhuma.
+    2. md:border-b md:border-[#4A3525]: A borda inferior marrom só aparece em tablets e desktops.
+    3. md:pb-0.5: Reduzimos o espaçamento inferior pela metade (de 4px para 2px), colando a linha no texto.
+  */}
+                            <p className="inline-block md:border-b md:border-[#4A3525] md:pb-0.4">
                                 Todos os materiais utilizados são de alta qualidade, garantindo um bordado bonito e duradouro:
                             </p>
                         </div>

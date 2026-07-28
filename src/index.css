@@ -6,6 +6,7 @@
   --color-secondary: #E8C5A9;
   --color-contrast: #FEFAF6;
   --color-accent: #D8E2CC;
+  --color-brown: #4A3525; 
   --font-title: 'Billion Miracles', cursive;
   --font-sans: 'Questrial', sans-serif;
 }
@@ -21,5 +22,5 @@
 html {
   scroll-behavior: smooth;
   background-color: var(--color-main);
-  color: #333333;
+  color: #6B4433; 
 }
