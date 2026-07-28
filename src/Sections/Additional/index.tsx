@@ -3,7 +3,7 @@ import React from 'react';
 import macrameComFranja from '../../assets/images/macramecomfranja.jpeg';
 import macrameSemFranja from '../../assets/images/macramesemfranja.jpeg';
 import macrameFotoGrande from '../../assets/images/macramefotgrande.jpeg';
-
+//comentario
 export const Additional: React.FC = () => {
   return (
     <section id="additional" className="w-full bg-accent font-sans text-brown overflow-hidden">
@@ -46,7 +46,7 @@ export const Additional: React.FC = () => {
                       className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                     />
                   </div>
-                  <p className="font-title text-xl md:text-5xl text-center mt-2">
+                  <p className="font-title text-3xl md:text-5xl text-center mt-2">
                     Com franja
                   </p>
                 </div>
@@ -60,6 +60,7 @@ export const Additional: React.FC = () => {
                     />
                   </div>
                   <p className="font-title text-3xl md:text-5xl text-center mt-2">
+                    
                     Sem franja
                   </p>
                 </div>
