@@ -19,7 +19,32 @@
   font-display: swap;
 }
 
+/* 1. Estilização para Firefox e especificações modernas */
 html {
   scroll-behavior: smooth;
   background-color: var(--color-main);
+  
+  /* Novas regras para a barra: fina e com as cores do ateliê */
+  scrollbar-width: thin; 
+  scrollbar-color: var(--color-secondary) var(--color-main); 
+}
+
+/* 2. Estilização para Chrome, Edge e Safari (Webkit) */
+::-webkit-scrollbar {
+  width: 8px; /* Deixa a barra bem fininha e delicada */
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-main); /* O trilho assume o fundo bege do site */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-secondary); /* A barra em si fica com o tom secundário */
+  border-radius: 10px; /* Pontas arredondadas e modernas */
+  border: 2px solid var(--color-main); /* Cria um respiro invisível para não encostar na borda */
+}
+
+/* Interação ao passar o mouse */
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-brown); /* Escurece para o marrom quando o usuário vai clicar */
 }
