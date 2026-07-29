@@ -10,7 +10,7 @@ const navItems: NavItem[] = [
     { label: "Como Encomendar", to: "/#how-to-order" }, 
     { label: "Catálogo", to: "/#catalog" },
     { label: "Adicionais", to: "/#additional" },
-    { label: "Encomendar", to: "/encomendar" },
+    { label: "Informações", to: "/encomendar" },
 ];
 
 export const Header: React.FC = () => {

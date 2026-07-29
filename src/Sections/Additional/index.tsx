@@ -3,7 +3,7 @@ import React from 'react';
 import macrameComFranja from '../../assets/images/macramecomfranja.jpeg';
 import macrameSemFranja from '../../assets/images/macramesemfranja.jpeg';
 import macrameFotoGrande from '../../assets/images/macramefotgrande.jpeg';
-//comentario
+
 export const Additional: React.FC = () => {
   return (
     <section id="additional" className="w-full bg-accent font-sans text-brown overflow-hidden">
@@ -19,8 +19,8 @@ export const Additional: React.FC = () => {
                 <h2 className="text-7xl md:text-[86px] font-title tracking-wide leading-none mb-2 md:mb-4">
                   Adicionais :
                 </h2>
-                <h3 className="text-7xl md:text-[86px] font-title tracking-wide leading-none mb-2 md:mb-4">
-                  - Nó
+                <h3 className="text-6xl md:text-[86px] font-title tracking-wide leading-none mb-2 md:mb-4 whitespace-nowrap">
+                  - Alça de Macramê
                 </h3>
 
                 <div className="space-y-4 text-base md:text-lg leading-relaxed font-normal">

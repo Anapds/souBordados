@@ -6,20 +6,14 @@ export const AdditionalHandle: React.FC = () => {
     return (
         <section id="additional" className="w-full bg-main font-sans text-brown overflow-hidden">
             
-            {/* 
-              CORREÇÃO ESTRUTURAL: Removido o 'pl-8' no mobile para acabar com o recuo 
-              que jogava o site para a direita. Mantido 'md:pl-48' para o desktop.
-            */}
             <div className="w-full mx-auto md:pl-48">
                 <div className="grid grid-cols-1 md:grid-cols-12 items-stretch min-h-[650px]">
 
-                    {/* Alinhamento simétrico no celular (px-6) e padrão no desktop (px-8) */}
                     <div className="md:col-span-6 px-6 md:px-8 py-16 md:py-20 flex flex-col justify-center items-center">
 
                         <div className="w-full max-w-lg space-y-10">
 
                             <div>
-                                {/* Seus títulos exatamente como você enviou */}
                                 <h2 className="text-7xl md:text-[86px] font-title tracking-wide leading-none mb-2 md:mb-4">
                                     Adicionais :
                                 </h2>
@@ -42,7 +36,6 @@ export const AdditionalHandle: React.FC = () => {
 
                     </div>
 
-                    {/* Centralização da foto no mobile via mx-auto md:mx-0 */}
                     <div className="md:col-span-6 max-w-lg w-full h-full flex items-center justify-center relative mx-auto md:mx-0">
 
                         <img
